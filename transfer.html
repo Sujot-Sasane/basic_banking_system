@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="transfer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title></title>
+</head>
+
+<body>
+  <div class="navb">
+    <div class="pan">
+      <h2 id="colo">SUJOT</h2>
+      <div class="navname">
+        <a id="a1" href="index.html">Home</a>
+        <a id="a2" href="customerdata.html">Customer Data</a>
+        <a id="a3" href="transfer.html">Transfer Window</a>
+      </div>
+    </div>
+  </div>
+  <h1 class="loogo">SUJOT INDUSTRIAL BANK</h1>
+  <div class="tom">
+    <div class="black">
+      <h3>Tranfer Portal DENA bank</h3>
+    </div>
+    <div class="nm">
+      <h4>From</h4>
+      <p>Name:- <input type="text" name="" value="" id="from" placeholder="eg-Sudan"></p>
+      <label for="exampleDataList" class="form-label" id="rhead">Sender's Email</label>
+      <input class="form-control" list="datalistOptions" id="exampleDtaList2" placeholder="Type to search...">
+      <datalist id="datalistOptions">
+        <option value="sujotn@gmail.com">
+        <option value="airis@gmail.com">
+        <option value="suddanshu@gmail.com">
+        <option value="ankur@gmail.com">
+        <option value="shubham@gmail.com">
+        <option value="jonny@gmail.com">
+        <option value="roshan@gmail.com">
+        <option value="lucky@gmail.com">
+        <option value="vaibhav@gmail.com">
+        <option value="suryansh@gmail.com">
+      </datalist>
+      <h4 id="mar">To</h4>
+      <p>Name:- <input type="text" id="name" placeholder="eg-Adam"></p>
+    </div>
+
+    <label for="exampleDataList" class="form-label" id="rhead">Recipient's Email</label>
+    <input class="form-control" list="datalistOptions" id="exampleDtaList" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+      <option value="sujotn@gmail.com">
+        <option value="airis@gmail.com">
+        <option value="suddanshu@gmail.com">
+        <option value="ankur@gmail.com">
+        <option value="shubham@gmail.com">
+        <option value="jonny@gmail.com">
+        <option value="roshan@gmail.com">
+        <option value="lucky@gmail.com">
+        <option value="vaibhav@gmail.com">
+        <option value="suryansh@gmail.com">
+    </datalist>
+    <p id="moneyb">Amount To Be Transferred</p>
+    <div class="input-group mb-3" id="amoun">
+      <span class="input-group-text">Rs</span>
+      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="moneyy">
+      <span class="input-group-text">.00</span>
+    </div>
+    <button type="button" id="submit" onclick="transfer()">Tranfer</button>
+
+  </div>
+
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          <b>Updated Customer Table</b>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="damn">
+            <div class="container">
+              <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                  <thead>
+                    <tr class="table-dange">
+                      <th scope="col" id="p1">Sr. No.</th>
+                      <th scope="col" id="p2">A/c No.</th>
+                      <th scope="col" id="p3">Name</th>
+                      <th scope="col" id="p4">E-mail</th>
+                      <th scope="col" id="p5">Bank Balance(in INR)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-light">
+                      <td scope="row">1</td>
+                      <td>365896</td>
+                      <td>Sujot</td>
+                      <td>sujot@gmail.com</td>
+                      <td>
+                        <p>2500000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-inf">
+                      <td scope="row">2</td>
+                      <td>658794</td>
+                      <td>Airis</td>
+                      <td>airis@gmail.com</td>
+                      <td>
+                        <p>500000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-ligh">
+                      <td scope="row">3</td>
+                      <td>226267</td>
+                      <td>Suddhanshu</td>
+                      <td>suddhanshu@gmail.com</td>
+                      <td>
+                        <p>595000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-inf">
+                      <td scope="row">4</td>
+                      <td>451268</td>
+                      <td>Ankur</td>
+                      <td>ankur@gmail.com</td>
+                      <td>
+                        <p>430000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-ligh">
+                      <td scope="row">5</td>
+                      <td>236974</td>
+                      <td>Shubham</td>
+                      <td>shubham@gmail.com</td>
+                      <td>
+                        <p id="tom">190200</p>
+                      </td>
+                    </tr>
+                    <tr class="table-inf">
+                      <td scope="row">6</td>
+                      <td>989898</td>
+                      <td>Roshan</td>
+                      <td>roshan@gmail.com</td>
+                      <td>
+                        <p>53000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-ligh">
+                      <td scope="row">7</td>
+                      <td>657941</td>
+                      <td>Jonny</td>
+                      <td>cami@gmail.com</td>
+                      <td>
+                        <p>95000</p>
+                      </td>
+                    </tr>
+                    <tr class="table-inf">
+                      <td scope="row">8</td>
+                      <td>807077</td>
+                      <td>Lucky</td>
+                      <td>lucky@gmail.com</td>
+                      <td>
+                        <p>72300</p>
+                      </td>
+                    </tr>
+                    <tr class="table-ligh">
+                      <td scope="row">9</td>
+                      <td>2272677</td>
+                      <td>Vaibhav</td>
+                      <td>Vaibhav@gmail.com</td>
+                      <td>
+                        <p>64530</p>
+                      </td>
+                    </tr>
+                    <tr class="table-inf">
+                      <td scope="row">10</td>
+                      <td>892898</td>
+                      <td>Suryansh</td>
+                      <td>suryansh@gmail.com</td>
+                      <td>
+                        <p>45000</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          <b>Transaction History</b>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h6 id="hist"> </h6>
+          <p id="ppt"> </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="about.html"> SUJOT_bank.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+    <script type="text/javascript" src="transfer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>

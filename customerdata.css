@@ -1,0 +1,101 @@
+body{
+    background-image: linear-gradient(to right, rgb(123, 233, 224) , rgb(7, 0, 49));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  a{
+    color: yellow;
+  }
+  a:hover{
+    background-color: #1c261e;
+  }
+  a:link{
+    text-decoration: none;
+    padding: 10px;
+  }
+  #colo{
+    color: blue;
+    margin-top: 5px;
+  }
+  
+  .navb{
+    background-color: black;
+    height: 66px;
+  }
+  
+  .pan{
+    padding: 5px;
+  }
+  
+  #a1{
+    color: yellow;
+  }
+  #a2{
+    color: yellow;
+  }
+  
+  #a3{
+    color: yellow;
+  }
+  h2{
+    width: 1000px;
+    color: white;
+    background-color: black;
+    margin-left: 175px;
+    border-radius: 10px;
+  }
+  
+  .table-inf{
+    background-color: #f0ffe1;
+  }
+  .table-ligh{
+    background-color: #4f55a7;
+  }
+  .navname{
+  
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 150px;
+  }
+  
+  .loogo{
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 135px;
+    position: relative;
+    left: 450px;
+    text-shadow: 2px 2px #ff0000;
+  }
+  
+  h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 	Verdana;
+  
+  }
+  
+  
+  th{
+    padding-left: 75px;
+  }
+  
+  #p1{
+    background-color: grey;
+  }
+  #p2{
+    background-color: grey;
+  }
+  #p3{
+    background-color: grey;
+  }
+  #p4{
+    background-color: grey;
+  }
+  #p5{
+    background-color: grey;
+  }

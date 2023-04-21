@@ -1,0 +1,153 @@
+body{
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .navb{
+    width: 100%;
+    background-color: black;
+    height: 66px;
+  }
+  #a1{
+    color: yellow;
+  }
+  #a2{
+    color: yellow;
+  }
+  #colo{
+    color: wheat;
+    margin-top: 5px;
+  }
+  #a3{
+    color: yellow;
+  }
+  .pan{
+    padding: 5px;
+    
+  }
+  
+  
+  
+  h6{
+    font-family: monospace;
+  }
+  .table-dange{
+    background-color: grey;
+  }
+  .loogo{
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 135px;
+    position: relative;
+    left: 450px;
+    text-shadow: 2px 2px #ff0000;
+  }
+  
+  .navname{
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 150px;
+  }
+  
+  a:hover{
+    background-color: #1c261e;
+  }
+  
+  a:link{
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .tom{
+  
+    border-radius: 20px;
+    background-color: #dbdfff;
+    width: 400px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 485px;
+  }
+  .accordion-body{
+    /* background-color: #dbdfff; */
+  }
+  
+  
+  .black{
+    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .form-control{
+    margin: 10px;
+  }
+  
+  #exampleDtaList{
+    width: 370px;
+  }
+  #exampleDtaList2{
+    margin-left: 0px;
+    width: 370px;
+  }
+  
+  #rhead{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .nm{
+    padding-left: 16px;
+    padding-top: 18px;
+  }
+  #name{
+    margin-left: 15px;
+  }
+  
+  #moneyb{
+    margin-left: 15px;
+    margin-top: 17px;
+  }
+  
+  
+  #amoun{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 370px;
+  }
+  
+  #submit{
+    color: white;
+    margin-left: 160px;
+    margin-top: 30px;
+    background-color: black;
+    box-shadow: 2px 2px black;
+  }
+  
+  .accordion{
+    width: 695px;
+    margin-left: 305px;
+  }
+  
+  h4{
+    margin-left: 150px;
+  }
+  
+  #mar{
+    margin-left: 160px;
+  }
+
+  .table-light{
+    background-color: black;
+  }

@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(to right, rgb(237, 245, 239) , rgb(7, 0, 49));
+  }
+  #colo{
+    color: wheat;
+    margin-top: 5px;
+  }
+  .head{
+    margin-top: 50px;
+    position: relative;
+    left: 300px;
+  }
+  
+  .accordion{
+    margin-left: 170px;
+    width: 1000px;
+  }
+  #a1{
+    color: yellow;
+  }
+  #a2{
+    color: yellow;
+  }
+  
+  #a3{
+    color: yellow;
+  }
+  
+  a:hover{
+    background-color: #1c261e;
+  }
+  a:link{
+    text-decoration: none;
+    padding: 10px;
+  }
+  .navb{
+    background-color: black;
+    height: 66px;
+  }
+  
+  .pan{
+    padding: 5px;
+  }
+  
+  #spark{
+    width: 100px;
+    height: 40px;
+  }
+  
+  .navname{
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 150px;
+  }
+  #footie{
+    margin-top: 200px;
+  }
+  .loogo{
+    border-radius: 20px;
+    margin: 20px;
+  
+    position: relative;
+    left: 250px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+.accordion-button{
+    cursor: pointer;
+
+  }
+
+  #history {
+    display: none;
+  }
+
+  #accordionbody{
+    display: none;
+  }
